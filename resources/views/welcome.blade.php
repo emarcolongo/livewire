@@ -7,7 +7,9 @@
         <livewire:styles />
     </head>
     <body class="antialiased">
-        @livewire('hello-world')
+        {{-- @livewire('hello-world')--}}
+        <hr>
+        @livewire('lifehook')
         <livewire:scripts />
     </body>
 </html>
